@@ -7,7 +7,7 @@
 <meta name="description" content="Handmade sleepwear in small batches. Cotton poplin plaid sets, pointelle wrap sets, and embroidered details — by Cianna Rose.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
    by Cianna Rose — design tokens
@@ -26,7 +26,7 @@
   --radius: 2px;
   --pad: clamp(1rem, 2.25vw, 2.25rem);
   --font-sans: 'Instrument Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-  --font-script: 'Allura', 'Brush Script MT', cursive;
+  --font-script: 'Pinyon Script', 'Allura', 'Brush Script MT', cursive;
   --font-serif: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
 }
 
@@ -100,13 +100,14 @@ h1,h2,h3{ font-weight: 500; margin: 0; }
 
 /* ---------------- announcement bar ---------------- */
 .announce{
-  background: var(--espresso);
-  color: var(--cream);
+  background: #FFFFFF;
+  color: var(--espresso);
   text-align: center;
   font-size: .72rem;
   letter-spacing: .18em;
   text-transform: uppercase;
   padding: .55rem 1rem;
+  border-bottom: 1px solid var(--line);
 }
 .announce .heart{ letter-spacing: 0; text-transform: none; }
 
@@ -135,7 +136,7 @@ h1,h2,h3{ font-weight: 500; margin: 0; }
 .nav-links a:hover, .nav-utils a:hover{ border-bottom-color: var(--espresso); }
 .nav-logo{
   font-family: var(--font-script);
-  font-size: clamp(1.7rem, 3vw, 2.1rem);
+  font-size: clamp(3rem, 7vw, 5.5rem);
   color: var(--espresso);
   line-height: 1;
   padding: 0 1rem;
@@ -595,9 +596,9 @@ footer{
   font-family: var(--font-script);
   color: var(--espresso);
   text-align: center;
-  font-size: clamp(4.2rem, 15.5vw, 13rem);
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
   line-height: 1.1;
-  padding: clamp(1.5rem, 4vw, 3rem) var(--pad) 0;
+  padding: clamp(1.5rem, 4vw, 2.5rem) var(--pad) 0;
   white-space: nowrap;
   overflow: hidden;
 }
